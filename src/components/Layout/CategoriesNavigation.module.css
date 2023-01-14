@@ -1,0 +1,20 @@
+.nav {
+  height: 40px;
+  width: 100%;
+  background-color: #141920;
+  color: #fff;
+}
+.categories__container {
+  display: flex;
+  width: 75%;
+}
+.categories__container > span {
+  margin: 0px 24px;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+.categories__container > span:hover {
+  border: 1px solid #fff;
+}

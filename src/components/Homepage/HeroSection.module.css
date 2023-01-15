@@ -114,3 +114,23 @@
   position: relative;
   right: 20px;
 }
+@media only screen and (max-width: 450px) {
+  .hero__card_container {
+    flex-direction: column;
+    position: static;
+  }
+  .hero__image_container {
+    position: static;
+    height: 100px;
+  }
+  .section_container {
+    padding: 0;
+  }
+  .third__card_container {
+    padding-right: 0;
+    width: 375px;
+  }
+  .third__card_container > div:nth-child(2) {
+    display: none;
+  }
+}

@@ -50,3 +50,12 @@
     margin: 0px 6px;
   }
 }
+@media only screen and (max-width: 450px) {
+  .categories__container {
+    overflow: scroll;
+    width: 50%;
+  }
+  .nav {
+    height: 70px;
+  }
+}

@@ -9,6 +9,7 @@ export class Layout extends Component {
       <Fragment>
         <TopHeader />
         <CategoriesNavigation />
+        <section className={classes.section}>{this.props.children}</section>
       </Fragment>
     );
   }

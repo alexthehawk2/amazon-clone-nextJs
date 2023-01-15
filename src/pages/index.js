@@ -1,10 +1,8 @@
-import Head from "next/head";
-import Image from "next/image";
-
+import HeroSection from "@/components/Homepage/HeroSection";
 import React, { Component } from "react";
 export class index extends Component {
   render() {
-    return <div>Amazon site</div>;
+    return <HeroSection />;
   }
 }
 

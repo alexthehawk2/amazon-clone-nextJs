@@ -1,0 +1,116 @@
+.section_container {
+  width: 100%;
+  padding: 0px 80px;
+  box-sizing: border-box;
+  background-color: #eaeded;
+  height: 2000px;
+  max-height: calc(100vh - 70px);
+}
+.hero__image_container {
+  width: 100%;
+  height: 415px;
+  background: url("/assets/images/homepage-hero-image.png") no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.hero__card_container {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  top: 310px;
+  gap: 40px;
+  justify-content: center;
+}
+.hero__image_linear_gradient {
+  height: 200px;
+  background: linear-gradient(180deg, #efc6a8 0%, #eaeded 100%);
+}
+
+.profile__card_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__card_container > div:nth-child(1) {
+  display: flex;
+}
+.profile__card_container > div:nth-child(1) > img {
+  margin-right: 16px;
+}
+.profile__card_container > div > div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.profile__card_container > div > div > span:nth-child(1) {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.profile__card_container > div > div > span:nth-child(2) {
+  font-size: 13px;
+}
+.profile__card_container > p {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+.profile_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.profile__grid_items {
+  padding: 20px;
+  background-color: #f6fafb;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+.electronics__card_container {
+  text-align: left;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+.electronics__card_container > p:nth-child(2) {
+  margin: 0;
+}
+.electronics__card_container > p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.electronics__card_container > img {
+  margin: 12px auto;
+}
+.electronics__card_container > span {
+  color: #007185;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.third__card_container {
+  text-align: left;
+  background-color: #ffffff;
+  padding: 20px;
+  height: 130px;
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.third__card_container > div > p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 700;
+}
+.third__card_container > div > span {
+  color: #007185;
+}
+
+.third__card_container > div:nth-child(2) {
+  position: relative;
+  right: 20px;
+}

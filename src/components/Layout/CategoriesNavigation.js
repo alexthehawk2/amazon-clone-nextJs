@@ -16,7 +16,16 @@ export class CategoriesNavigation extends Component {
           <span>Computers</span>
           <span>Customer Service</span>
         </div>
-        <div className={classes.prime__feature__container}></div>
+        <div className={classes.prime__feature__container}>
+          <div className={classes.prime__feature_right}>
+            <div>
+              <span>JOIN PRIME NOW |</span>
+              <span> PRIME </span>
+              <span>VIDEO</span>
+            </div>
+            <div>*Redirects to PrimeVideo.com</div>
+          </div>
+        </div>
       </nav>
     );
   }

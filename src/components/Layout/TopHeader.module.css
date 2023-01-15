@@ -171,3 +171,15 @@
 .top__right__cart_container > div:nth-child(2) {
   justify-content: end;
 }
+@media only screen and (max-width: 1440px) {
+  .top__center_container {
+    width: 45%;
+  }
+  .top__left_container {
+    width: 18%;
+  }
+  .top__right_container {
+    width: 35%;
+    justify-content: space-evenly;
+  }
+}

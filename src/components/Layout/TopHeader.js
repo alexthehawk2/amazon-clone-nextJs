@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import Image from "next/image";
 import classes from "./TopHeader.module.css";
+import Link from "next/link";
 export class TopHeader extends Component {
   render() {
     return (
@@ -54,20 +55,22 @@ export class TopHeader extends Component {
               height={20}
             />
           </div>
-          <div className={classes.top__right__profile_container}>
-            <div>
-              <span>Hello, Abir</span>
-              <span>Accounts & Lists</span>
+          <Link href="/create-account">
+            <div className={classes.top__right__profile_container}>
+              <div>
+                <span>Hello, Abir</span>
+                <span>Accounts & Lists</span>
+              </div>
+              <div>
+                <Image
+                  src="/assets/images/down-arrow-2.png"
+                  alt="arrow-icon"
+                  width={10}
+                  height={10}
+                />
+              </div>
             </div>
-            <div>
-              <Image
-                src="/assets/images/down-arrow-2.png"
-                alt="arrow-icon"
-                width={10}
-                height={10}
-              />
-            </div>
-          </div>
+          </Link>
           <div className={classes.top__right__orders_container}>
             <div>
               <span>Returns</span>

@@ -19,7 +19,7 @@ export class HeroSection extends Component {
                   />
                   <div>
                     <span>Hi, Abir</span>
-                    <span>Customer since 2023</span>
+                    <span>Customer since {new Date().getFullYear()}</span>
                   </div>
                 </div>
                 <p>Top links for you</p>

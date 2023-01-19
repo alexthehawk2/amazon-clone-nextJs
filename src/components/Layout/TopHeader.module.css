@@ -99,6 +99,7 @@
   cursor: pointer;
   padding: 5px 5px;
   border: 1px solid transparent;
+  color: white;
 }
 .top__right__profile_container:hover {
   border: 1px solid white;

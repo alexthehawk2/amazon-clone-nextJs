@@ -184,3 +184,23 @@
     justify-content: space-evenly;
   }
 }
+@media only screen and (max-width: 450px) {
+  .top_container {
+    font-size: 0.8rem;
+    height: 100px;
+  }
+  .top__left_container {
+    margin-right: 45px;
+  }
+  .top__right__country_container,
+  .top__right__orders_container,
+  .top__right__profile_container {
+    display: none;
+  }
+  .top__right_container {
+    width: 10%;
+  }
+  .top__left__inner_container {
+    display: none;
+  }
+}

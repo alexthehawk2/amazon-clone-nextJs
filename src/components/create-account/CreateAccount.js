@@ -1,3 +1,4 @@
+import AuthContext from "@/context/auth";
 import Image from "next/image";
 import React, { Component, Fragment } from "react";
 import classes from "./CreateAccount.module.css";
@@ -55,5 +56,5 @@ export class CreateAccount extends Component {
     );
   }
 }
-
+CreateAccount.contextType = AuthContext;
 export default CreateAccount;
